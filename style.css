@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+    
+
+}
+.background-gif {
+    position: fixed;  /* Ensures the GIF stays in place when scrolling */
+    top: 0;
+    left: 0;
+    width: 100%;  /* Stretches to cover the entire viewport */
+    height: 100%;
+
+    background-image: url("/imagesandvideos/Animation\ -\ 1713112892906.gif");  /* Replace with your GIF URL */
+    background-size: cover;
+    background-position: center;
+    
+    z-index: -1;
+  }
+  .heading{
+    border: 5px solid rgb(202, 219, 11);
+    width: 40%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px;
+    margin: 20px;
+    
+  }
+  .heading h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+  }
+  .pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .main{
+    border: 3px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgb(119, 114, 114);
+  }
+  input{
+  
+    width: 320px;
+    border: none;
+    background: transparent;
+    box-shadow: 0px 6px 20px rgb(66, 3, 255);
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+    text-align: right;
+    font-size: 40px;
+    
+
+    
+  }
+  input::placeholder{
+    color: black ;
+  }
+  button{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    box-shadow: 0px 6px 20px rgb(228, 154, 16);
+    font-weight: 200;
+    
+
+  }
+  button:hover{
+   
+    background-color: rgb(255, 247, 17);
+  }
+  .sea{
+    background-color: seagreen;
+  }
+  .sea:hover{
+    background-color: black;
+    color: orange;
+  }
+  .orange{
+    background-color: orange;
+  }
+  .red{
+    background-color: rgb(238, 59, 59);
+  }
